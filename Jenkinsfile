@@ -4,6 +4,7 @@ pipeline {
         AZURE_CREDENTIALS_ID = 'azure-service-principal'
         RESOURCE_GROUP = 'rg-dotnetjenkins2912'
         APP_SERVICE_NAME = 'webapijenkins-2912'
+        CMD_PATH = 'C:\Windows\System32\cmd.exe'
     }
 
     stages {
